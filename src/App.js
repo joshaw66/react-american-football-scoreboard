@@ -32,7 +32,7 @@ function App() {
       <section className="buttons">
         <div className="homeButtons">
           {/* TODO STEP 4 - Now we need to attach our state setter functions to click listeners. */}
-          <button className="homeButtons__touchdown"onClick={() => setLionsTeam(lionsTeam + 6)}></button>
+          <button onClick={() => setLionsTeam(lionsTeam + 6)} className="homeButtons__touchdown">Home Touchdown</button>
           <button onclick={() => setLionsTeam(lionsTeam + 3)}className="homeButtons__fieldGoal">Home Field Goal</button>
         </div>
         <div className="awayButtons">
