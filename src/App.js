@@ -21,7 +21,7 @@ function App() {
 
             <div className="home__score">{lionsTeam}</div>
           </div>
-          <div className="timer">00:03</div>
+          <div className="timer">00:33</div>
           <div className="away">
             <h2 className="away__name">Tigers</h2>
             <div className="away__score">{tigersTeam}</div>
@@ -33,7 +33,7 @@ function App() {
         <div className="homeButtons">
           {/* TODO STEP 4 - Now we need to attach our state setter functions to click listeners. */}
           <button onClick={() => setLionsTeam(lionsTeam + 6)} className="homeButtons__touchdown">Home Touchdown</button>
-          <button onclick={() => setLionsTeam(lionsTeam + 3)}className="homeButtons__fieldGoal">Home Field Goal</button>
+          <button onClick={() => setLionsTeam(lionsTeam + 3)} className="homeButtons__fieldGoal">Home Field Goal</button>
         </div>
         <div className="awayButtons">
           <button onClick={() => setTigersTeam(tigersTeam + 6)} className="awayButtons__touchdown">Away Touchdown</button>
